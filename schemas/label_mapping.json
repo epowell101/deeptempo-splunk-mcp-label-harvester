@@ -1,0 +1,11 @@
+{
+  "C2": [
+    { "field": "mitre_tactic", "values": ["command-and-control", "c2"] }
+  ],
+  "EXFIL": [
+    { "field": "mitre_tactic", "values": ["exfiltration", "exfil"] }
+  ],
+  "LATERAL": [
+    { "field": "mitre_tactic", "values": ["lateral-movement", "lateral"] }
+  ]
+}
