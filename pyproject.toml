@@ -1,11 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "deeptempo-splunk-mcp-label-harvester"
 version = "0.1.0"
 description = "Demo: Harvest labeled incidents from Splunk via MCP for evaluation datasets"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
   "httpx>=0.27.0",
 ]
 
 [project.scripts]
 splunk-label-harvest = "src.harvest:main"
+
+[tool.setuptools]
+packages = ["src"]
