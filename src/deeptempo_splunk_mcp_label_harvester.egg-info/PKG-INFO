@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: deeptempo-splunk-mcp-label-harvester
+Version: 0.1.0
+Summary: Demo: Harvest labeled incidents from Splunk via MCP for evaluation datasets
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: httpx>=0.27.0
+Dynamic: license-file
